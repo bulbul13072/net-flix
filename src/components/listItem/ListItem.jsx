@@ -16,7 +16,7 @@ export default function ListItem({index}){
             onMouseLeave={() => setIsHovered(false)}
             >
                 <img
-        src="https://occ-0-1723-92.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABU7D36jL6KiLG1xI8Xg_cZK-hYQj1L8yRxbQuB0rcLCnAk8AhEK5EM83QI71bRHUm0qOYxonD88gaThgDaPu7NuUfRg.jpg?r=4ee"
+        src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fletsdownloadgame.com%2Fwp-content%2Fuploads%2F2019%2F12%2FDownload-marvels-avengers-game-apk-for-android-free.jpg&f=1&nofb=1"
         alt=""
                 />
             {isHovered && (
@@ -24,10 +24,10 @@ export default function ListItem({index}){
             <video src={trailer} autoPlay={true} loop></video>
             <div className="itemInfo">
                 <div className="icons">
-                    <PlayArrow/>
-                    <Add/>
-                    <ThumbUpAltOutlined/>
-                    <ThumbDownAltOutlined/>
+                    <PlayArrow className="icon"/>
+                    <Add className="icon"/>
+                    <ThumbUpAltOutlined className="icon"/>
+                    <ThumbDownAltOutlined className="icon"/>
                 </div>
                 <div className="itemInfoTop">
                     <span>1 hour 12 mins</span>
